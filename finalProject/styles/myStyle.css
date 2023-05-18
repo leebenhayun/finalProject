@@ -1,0 +1,59 @@
+﻿/* Fonts */
+@font-face {
+    font-family: 'Rubik-Light';
+    src: url('../fonts/Rubik-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Zolina-Bold';
+    src: url('../fonts/Zolina-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Zolina-Regular';
+    src: url('../fonts/Zolina-Regular.ttf') format('truetype');
+}
+
+/* Body */
+body {
+    background-color: #EBEBEB;
+    font-family: Rubik-Light;
+}
+
+/* Navigation Bar */
+.navLink {
+    font-size: 18px;
+    font-family: Rubik-Light;
+    color: black;
+    text-decoration: none;
+    display: inline;
+    width: 30px;
+}
+
+.navItem {
+    display:inline-block;
+    width: 70px;
+    margin-top:10px;
+}
+
+#navBar {
+    position: absolute;
+    left: 540px;
+}
+
+/* Hero Section */ 
+#heroSection {
+    position: absolute;
+    top: 70px;
+
+    
+}
+#mainTitle {
+    font-family:Zolina-Regular;
+    font-size:70px;
+    margin-left: 150px;
+}
+
+.boldTitle {
+    font-family: Zolina-Bold;
+}
